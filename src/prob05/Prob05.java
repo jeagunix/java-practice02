@@ -12,7 +12,7 @@ public class Prob05 {
 			int minNum = 1;
 			int maxNum = 100;
 			int i = 1;
-			char flag;
+			String answer;
 			// 정답 랜덤하게 만들기
 
 			Random random = new Random();
@@ -39,8 +39,12 @@ public class Prob05 {
 				i++;
 			}
 			System.out.print("다시하시겠습니까?(y/n)>>");
-			flag = scanner.next().charAt(0);
-			if (flag == 'n')
+			answer = scanner.next();
+			if (answer.equals("y")) {
+				
+			}
+				
+			else
 				break;
 
 		}
